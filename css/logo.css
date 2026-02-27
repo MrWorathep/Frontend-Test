@@ -1,0 +1,36 @@
+.logo img {
+  width: 100%;
+  display: block;
+}
+
+.logo {
+  position: fixed;
+  z-index: 1;
+  top: 100px;
+  padding: 0px 20px;
+  width: 100%;
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+
+.max-width-logo {
+  max-width: 1440px;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    position: fixed;
+    bottom: 0;
+    top: 90px;
+    width: 100%;
+    padding: 0px 8px;
+    mix-blend-mode: difference;
+    pointer-events: none;
+    z-index: 999;
+  }
+
+  .logo.top-logo {
+    top: auto;
+    bottom: 12px;
+  }
+}

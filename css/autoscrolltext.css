@@ -1,0 +1,52 @@
+.font-auto-scroll-text {
+  color: #fff;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.scroll-wrapper {
+  margin-top: 100px;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #000;
+  width: 100%;
+}
+
+.scroll-track {
+  display: flex;
+  width: 100%;
+  animation: scroll-left 10s linear infinite;
+}
+
+.scroll-content {
+  display: flex;
+  align-items: center;
+}
+
+.padding-auto-scroll {
+  padding: 4px 95px;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@media (max-width: 768px) {
+  .font-auto-scroll-text {
+    font-size: 24px;
+  }
+
+  .padding-auto-scroll {
+    padding: 20px;
+  }
+
+  .scroll-track {
+    animation: scroll-left 5s linear infinite;
+  }
+}

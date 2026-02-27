@@ -1,0 +1,428 @@
+<html>
+  <head>
+    <title>Frontend Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/logo.css" />
+    <link rel="stylesheet" href="css/video.css" />
+    <link rel="stylesheet" href="css/seller.css" />
+    <link rel="stylesheet" href="css/collection.css" />
+    <link rel="stylesheet" href="css/autoscrolltext.css" />
+    <link rel="stylesheet" href="css/helptext.css" />
+    <link rel="stylesheet" href="css/askquestion.css" />
+    <link rel="stylesheet" href="css/inquiry.css" />
+    <link rel="stylesheet" href="css/btnhome.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+  </head>
+  <body>
+    <!-- Nav -->
+    <!-- Desktop -->
+    <header class="nav-desktop navbar child-body">
+      <div class="container">
+        <div class="box-navbar">
+          <div id="nav-left-desktop" class="nav-left">
+            <div class="lang-current">TH - THB ▾</div>
+            <div class="lang-dropdown">
+              <div>US - USD</div>
+            </div>
+          </div>
+          <nav class="nav-center">
+            <span class="nav-center-font padding">WOMEN</span>
+            <span class="nav-center-font padding">COLLECTIONS</span>
+            <div class="editorial editorial-btn">
+              <span class="editorial-font padding">EDITORIAL</span>
+              <div class="editorial-dropdown">
+                <span class="editorial-dropdown-font padding">A.S.C</span>
+                <span class="editorial-dropdown-font padding">BAZAAR</span>
+                <span class="editorial-dropdown-font padding">ELLE</span>
+                <span class="editorial-dropdown-font padding">GQ</span>
+              </div>
+            </div>
+            <span class="nav-center-font padding">NEWS</span>
+            <span class="nav-center-font padding">STORIES</span>
+          </nav>
+          <div class="nav-right">
+            <span class="nav-right-hover padding">SIGN IN</span>
+            <img src="assets/icons/icon-bag-shopping.png" alt="Vector" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile -->
+    <header class="nav-mb navbar">
+      <div class="child-body">
+        <div class="box-navbar">
+          <div id="nav-left-mb" class="nav-left">
+            <div class="lang-current">TH - THB ▾</div>
+            <div class="lang-dropdown">
+              <div>US - USD</div>
+            </div>
+          </div>
+          <nav class="nav-center-mobile">
+            <div class="hamburger">
+              <img id="hamburger-icon" src="assets/icons/Hamburger.svg" />
+            </div>
+            <div id="mobile-dropdown" class="mobile-dropdown hidden">
+              <span>WOMEN</span>
+              <span>COLLECTIONS</span>
+              <span id="editorial-mb" class="editorial-mb"
+                >EDITORIAL ▾
+                <div
+                  id="editorial-dropdown-mb"
+                  class="editorial-dropdown-mb hidden"
+                >
+                  <span>A.S.C</span>
+                  <span>BAZAAR</span>
+                  <span>ELLE</span>
+                  <span>GQ</span>
+                  <span>L'OFFICIAL THAILAND</span>
+                  <span>NUMERO</span>
+                  <span>VOGUE</span>
+                </div>
+              </span>
+
+              <span>NEWS</span>
+              <span>STORIES</span>
+            </div>
+          </nav>
+          <div class="nav-right">
+            <span class="nav-right-hover padding">SIGN IN</span>
+            <img src="assets/icons/icon-bag-shopping.png" alt="Vector" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="editorial-bg"></div>
+
+    <!-- LOGO -->
+    <div id="logo" class="logo max-width-logo">
+      <img src="assets/images/Logo.svg" alt="Logo" />
+    </div>
+
+    <!-- Video -->
+    <div class="video-center">
+      <video autoplay loop muted playsinline>
+        <source src="assets/videos/mockup_video576.mp4" type="video/mp4" />
+      </video>
+    </div>
+
+    <!-- Seller -->
+    <div class="seller max-width">
+      <!-- New -->
+      <div class="box-new">
+        <img src="assets/images/New.svg" alt="New" />
+        <div class="sticky-wrapper">
+          <span class="title-seller">NEW</span>
+        </div>
+      </div>
+      <div class="text-seller">
+        <span class="header-font-size"
+          >Sed egestas, nibh a condimentum imperdiet</span
+        >
+        <span class="font-size"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie
+          quam justo ut lacus. Proin vitae</span
+        >
+      </div>
+      <!-- Best Seller -->
+      <div class="box-bestseller">
+        <video autoplay loop muted playsinline>
+          <source src="assets/videos/Bestseller.mp4" type="video/mp4" />
+        </video>
+        <div class="sticky-wrapper">
+          <span class="title-seller"> BESTSELLER </span>
+        </div>
+      </div>
+      <div class="text-seller">
+        <span class="header-font-size"
+          >Sed egestas, nibh a condimentum imperdiet</span
+        >
+        <span class="font-size"
+          >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+          nisl non rhoncus commodo, turpis elit ultricies justo, vitae molestie
+          quam justo ut lacus. Proin vitae</span
+        >
+      </div>
+    </div>
+
+    <!-- Collection -->
+    <div class="collection">
+      <div class="box-collection">
+        <div class="box-collection1">
+          <img src="assets/images/Collection1.svg" alt="Collection1" />
+          <video muted autoplay playsinline loop>
+            <source src="assets/videos/CollectionVideo.mp4" type="video/mp4" />
+          </video>
+          <div class="box-text-collection">
+            <span class="text-collection1">COLLECTION 01</span>
+          </div>
+        </div>
+      </div>
+      <div class="box-collection max-width">
+        <div class="box-collection23">
+          <div class="box-collection2">
+            <img src="assets/images/Collection2.svg" alt="Collection2" />
+            <img
+              src="assets/images/HoverCollection23.svg"
+              alt="HoverCollection23"
+            />
+            <div class="box-text-collection">
+              <span class="text-collection23">COLLECTION 02</span>
+            </div>
+          </div>
+          <div class="box-collection3">
+            <img src="assets/images/Collection3.svg" alt="Collection3" />
+            <div class="hover-colection-img">
+              <img
+                src="assets/images/HoverCollection23.svg"
+                alt="HoverCollection23"
+              />
+            </div>
+            <div class="box-text-collection">
+              <span class="text-collection23">COLLECTION 03</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Auto scrolling text -->
+    <div class="scroll-wrapper">
+      <div class="scroll-track font-auto-scroll-text">
+        <div class="scroll-content">
+          <img src="assets/icons/pixelarticons_arrow-left.svg" />
+          <span class="padding-auto-scroll">NEW ARRIVAL</span>
+          <img src="assets/icons/pixelarticons_arrow-right.svg" />
+          <span class="padding-auto-scroll">BEST SELLING</span>
+        </div>
+        <div class="scroll-content">
+          <img src="assets/icons/pixelarticons_arrow-left.svg" />
+          <span class="padding-auto-scroll">NEW ARRIVAL</span>
+          <img src="assets/icons/pixelarticons_arrow-right.svg" />
+          <span class="padding-auto-scroll">BEST SELLING</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Help Text -->
+    <div class="max-width-help">
+      <div class="box-help-text">
+        <div>
+          <h3 class="title-help-text">WORLDWIDE SHIPPING</h3>
+          <p class="font-help-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+            nisl non rhoncus commodo, turpis elit ultricies justo, vitae
+            molestie quam justo ut lacus. Proin vitae
+          </p>
+        </div>
+        <div>
+          <h3 class="title-help-text">CUSTOMER SERVICE</h3>
+          <p class="font-help-text">
+            <span class="underline-help-text">Lorem ipsum dolor sit amet</span
+            ><span
+              >, consectetur adipiscing elit. Nam ornare, nisl non rhoncus
+              commodo, turpis elit ultricies justo, vitae molestie quam justo ut
+              lacus. Proin vitae</span
+            >
+          </p>
+        </div>
+        <div>
+          <h3 class="title-help-text">SECURE PAYMENT</h3>
+          <p class="font-help-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare,
+            nisl non rhoncus commodo, turpis elit ultricies justo, vitae
+            molestie quam justo ut lacus. Proin vitae
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <div class="box-ask">
+      <div class="max-width-ask">
+        <div class="box-child-ask">
+          <div class="font-title">
+            <h1>FREQUENTLY ASKED QUESTIONS</h1>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo.</span
+            >
+          </div>
+          <div class="box-btn-ask">
+            <button class="btn-ask">ORDERS</button>
+            <button class="btn-ask cursor-pointer faq-btn">SHIPPING</button>
+            <button class="btn-ask cursor-pointer faq-btn">
+              RETURN & EXCHANGES
+            </button>
+            <button class="btn-ask">SIZING & PRODUCTS</button>
+          </div>
+          <div class="big-box-accordion">
+            <div class="faq-container"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Make an inquiry -->
+    <div class="box-inquiry">
+      <div class="max-width-inquiry">
+        <div class="box-child-inquiry">
+          <div class="title-inquiry">
+            <h2>MAKE AN INQUIRY</h2>
+            <span
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam
+              ornare, nisl non rhoncus commodo.</span
+            >
+          </div>
+          <div class="box-data-inquiry">
+            <div class="radio-group">
+              <label class="radio-item">
+                <input type="radio" name="workType" checked />
+                <span>Onsite</span>
+              </label>
+
+              <label class="radio-item">
+                <input type="radio" name="workType" />
+                <span>Hybrid</span>
+              </label>
+            </div>
+            <div class="box-form-name">
+              <div class="form-row">
+                <div class="input-group">
+                  <input type="text" placeholder="" required />
+                  <label>Full name*</label>
+                </div>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    placeholder=""
+                    value="Plaimanas@gmail.com"
+                    required
+                  />
+                  <label>Email*</label>
+                </div>
+              </div>
+            </div>
+            <div class="box-form-phone">
+              <div class="form-row">
+                <div class="input-group">
+                  <input type="tel" placeholder="" required />
+                  <label>Phone number*</label>
+                </div>
+                <div class="box-subject-dropdown">
+                  <div class="subject-dropdown">
+                    <div class="subject-placeholder">Select Subject*</div>
+                    <svg
+                      class="arrow"
+                      width="14"
+                      height="14"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="M6 9l6 6 6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <div class="data-subject-dropdown">
+                    <div>Genaral inquiry</div>
+                    <div>Job Application</div>
+                    <div>Media & Press</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="checkbox-inquiry">
+              <label class="custom-checkbox">
+                <input type="checkbox" />
+                <span> I agree to all terms & conditions</span>
+              </label>
+            </div>
+            <div class="btn-inquiry"><button>SEND</button></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- btn Homepage -->
+    <div class="box-btn-homepage">
+      <div class="btn-homepage"><button>HOMEPAGE</button></div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="width-footer">
+        <div class="box-footer">
+          <div class="box-title-footer">
+            <h2>ABOUT</h2>
+            <div class="box-text-footer">
+              <span class="hover-footer">Women</span>
+              <span class="hover-footer">Collections</span>
+              <span class="hover-footer">Editorial</span>
+              <span class="hover-footer">Stories</span>
+            </div>
+          </div>
+          <div class="box-title-footer">
+            <h2>HELP</h2>
+            <div class="box-text-footer">
+              <span class="hover-footer">Payment Notification</span>
+              <span class="hover-footer">Customer Service</span>
+              <span class="hover-footer">FAQ</span>
+            </div>
+          </div>
+          <div class="box-title-footer">
+            <h2>SOCIAL</h2>
+            <div class="box-text-footer">
+              <span class="hover-footer">Instagram</span>
+              <span class="hover-footer">Facebook</span>
+            </div>
+          </div>
+          <div class="box-title-footer">
+            <h2>LEGAL</h2>
+            <div class="box-text-footer">
+              <span class="hover-footer">Terms & Conditions</span>
+              <span class="hover-footer">Privacy Policy</span>
+              <span class="hover-footer">Cookies Policy</span>
+            </div>
+          </div>
+          <div class="box-title-footer box-newsletter">
+            <h2>NEWSLETTER</h2>
+            <div class="box-email-footer">
+              <div class="email-footer">
+                <p>Email</p>
+              </div>
+              <div class="btn-email-footer">
+                <button>SUBSCRIBE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="box-web-by">
+          <span>©PLAIMANAS</span>
+          <span>Web by ::*</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/navBar/navbar.js"></script>
+  <script src="js/faq/faqData.js"></script>
+  <script src="js/faq/faqUI.js"></script>
+  <script src="js/inquiry/inquiry.js"></script>
+  <script src="js/btnHomepage/btnHomepage.js"></script>
+  <script src="js/script.js"></script>
+</html>

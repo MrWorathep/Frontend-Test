@@ -1,0 +1,4 @@
+initNavbar();
+initFAQ();
+initInquiry();
+initBtnHomepage();

@@ -1,0 +1,21 @@
+.video-center {
+  width: 100%;
+  height: 100vh;
+}
+
+.video-center video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .video-center {
+    width: 100%;
+  }
+
+  .video-center video {
+    width: 100%;
+    object-fit: cover;
+  }
+}

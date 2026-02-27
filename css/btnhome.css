@@ -1,0 +1,23 @@
+.box-btn-homepage {
+  width: 100%;
+}
+
+.btn-homepage {
+  margin: 20px;
+  margin-bottom: 0px;
+}
+
+.btn-homepage button {
+  padding: 10px;
+  cursor: pointer;
+  color: rgba(0, 0, 0, 1);
+  font-size: 12px;
+  transition: all 300ms ease;
+  border: none;
+  background-color: #fff;
+}
+
+.btn-homepage:hover button {
+  transition: all 300ms ease;
+  color: rgba(0, 0, 0, 0.5);
+}

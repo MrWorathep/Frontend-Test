@@ -1,0 +1,136 @@
+.collection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-collection {
+  max-width: 978px;
+  width: 100%;
+}
+.box-collection1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.box-collection1 img {
+  width: 100%;
+  display: block;
+}
+.box-collection1 video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.box-text-collection {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-collection1 {
+  color: #fff;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.box-collection1:hover img {
+  opacity: 0;
+}
+
+.box-collection1:hover video {
+  opacity: 1;
+}
+
+.text-collection23 {
+  color: #fff;
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.box-collection2,
+.box-collection3 {
+  position: relative;
+}
+
+.box-collection2 > img:first-child,
+.box-collection3 > img:first-child {
+  width: 100%;
+  display: block;
+  transition: all 300ms ease;
+}
+
+.box-collection2 > img:nth-child(2),
+.hover-colection-img {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: all 300ms ease;
+  width: 100%;
+}
+
+.hover-colection-img img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.box-collection2:hover > img:first-child,
+.box-collection3:hover > img:first-child {
+  opacity: 0;
+}
+
+.box-collection2:hover > img:nth-child(2),
+.box-collection3:hover .hover-colection-img {
+  opacity: 1;
+}
+
+.box-collection23 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+@media (max-width: 768px) {
+  .box-collection23 {
+    width: 100%;
+    gap: 24px;
+    margin-top: 24px;
+  }
+
+  .box-collection {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .text-collection1 {
+    color: #fff;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+  }
+
+  .text-collection23 {
+    color: #fff;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+  }
+
+  .padding-box-collection {
+    padding: 24px;
+  }
+}

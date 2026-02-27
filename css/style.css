@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  justify-items: center;
+  background-color: #fff;
+  cursor: default;
+}
+
+.child-body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #fff;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.relative-box {
+  position: relative;
+}
+
+.absolute-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

@@ -1,0 +1,126 @@
+.box-ask {
+  margin-top: 140px;
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-child-ask {
+  width: 100%;
+}
+
+.font-title {
+  margin-bottom: 36px;
+  text-align: center;
+}
+
+.font-title h1 {
+  font-size: 40px;
+  font-family: 900;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
+.font-title span {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.box-btn-ask {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+
+.btn-ask {
+  font-size: 13px;
+  padding: 10px 15px;
+  border-radius: 100px;
+  border: 0.5px solid #828282;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+
+.btn-ask-hover:hover {
+  color: #000;
+  transition: all 300ms ease;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.btn-ask.active {
+  color: #000;
+  transition: all 300ms ease;
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.big-box-accordion {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.box-accordion {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+}
+
+.box-accordion h1 {
+  font-size: 16px;
+  font-weight: bold;
+}
+.text-accordion span {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-box-accordion {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+}
+
+.cursor-box-accordion.active .arrow {
+  transform: rotate(180deg);
+  transition: all 300ms ease;
+}
+
+.max-width-ask {
+  max-width: 1092px;
+  width: 100%;
+}
+.text-accordion {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.cursor-box-accordion.active .text-accordion {
+  max-height: 200px;
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .box-btn-ask {
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+  }
+  .btn-ask {
+    width: fit-content;
+  }
+
+  .box-ask {
+    padding: 100px 24px;
+  }
+}
